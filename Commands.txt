@@ -1,0 +1,82 @@
+To check the version of git on VS code
+git --version
+
+#Configuring Git
+git config --global user.name "my name"
+
+git config --global user.email "my email"(login email of GitHub)
+
+git config --list 
+
+-- Clone and Status
+# clone - cloning a repository on our local machine
+git 'link of GitHub project'
+
+# status - displays the state of the code
+git status
+
+# to shows all file of git 
+ls -a
+
+/* Untracked - new files that git doesn't track
+   modified - changed 
+   staged - file is ready to be committed
+   unmodified - unchanged
+*/
+
+1. Add and Commit 
+# Add - adds new or changed files in your working directory to the Git staging area
+
+git add file_name
+or 
+git add . (to add all changes)
+
+2. commit - it is the record of change
+
+git commit -m"some message"
+
+3. Push command
+# push - upload local repo content to remote repo
+
+git push origin main
+
+4. Init command
+# init- used to create a new git repo
+git init
+git remote add origin 'link' (the GitHub repository are remote repository)
+git remote -v (to verify remote)
+git branch (to check branch)
+git branch -M main (to rename branch)
+git push -u origin main (to send changes into the GitHub repo )then only
+git push  ( is used) (upload code to GitHub)
+
+###################################
+5. To add a file of a particular folder
+
+git add file_path
+
+then commit and push
+
+6. To remove a file from a particular folder
+
+git rm file_path
+
+then commit and push
+####################################
+
+
+
+
+# WorkFlow
+1. GitHub
+2. clone
+3. changes
+4. add
+5. commit
+6. push
+
+####################################
+-- git branches
+
+
+
