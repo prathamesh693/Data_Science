@@ -1,9 +1,11 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Mar 26 08:17:37 2024
+#################
 
-@author: ratho
-"""
+# BEFORE USE THIS FILE CHECK THE pandas LIBRARY IS AVAILABLE OR NOT
+# if not then try
+# pip install pandas on command line
+# to install pandas library
+
+##################
 # shallow copy 
 # one level deep. mlodifying on level 1 does not affect
 # use copy.copy()
