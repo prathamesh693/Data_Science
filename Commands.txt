@@ -61,7 +61,7 @@ then commit and push
 
 git rm file_path
 
-then commit and push
+then commit and pushcomgit 
 ####################################
 
 
