@@ -144,10 +144,3 @@ df1=df.drop([0,3],axis=0) # it will delete row 0 and row 3
 df1
 df1=df.drop(range(0,2)) # it will delete 0 and 1
 df1
-#############################################################################
-
-
-
-
-
-
