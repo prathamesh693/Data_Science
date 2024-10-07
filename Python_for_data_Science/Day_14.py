@@ -122,10 +122,3 @@ technologies={
 row_label=['r0','r1','r2','r3','r4','r5','r6','r7']
 df=pd.DataFrame(technologies,index=row_label)
 print(df)
-##############################################################################################
-
-
-
-
-
-
